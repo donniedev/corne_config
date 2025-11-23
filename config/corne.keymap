@@ -114,8 +114,8 @@
             >;
         };
 
-        layer_3 {
-            display-name = "Raise";
+        layer_4 {
+            display-name = "layer_4";
             bindings = <
 &kp TAB    &kp F1     &kp F2          &kp F3          &kp F4           &kp F5                  &kp F6     &kp F7     &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &trans     &trans          &mmv MOVE_UP    &trans           &kp NON_US_BACKSLASH    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
