@@ -61,6 +61,51 @@
             tapping-term-ms = <300>;
             bindings = <&kp LEFT_GUI>, <&to 3>, <&to 4>;
         };
+
+        Q_P: Q_P {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Q_P";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        W_O: W_O {
+            compatible = "zmk,behavior-hold-tap";
+            label = "W_O";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        E_I: E_I {
+            compatible = "zmk,behavior-hold-tap";
+            label = "E_I";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        R_U: R_U {
+            compatible = "zmk,behavior-hold-tap";
+            label = "R_U";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        T_Y: T_Y {
+            compatible = "zmk,behavior-hold-tap";
+            label = "T_Y";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -75,10 +120,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T           &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D         &kp F         &kp G           &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V         &kp B           &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &kp LEFT_ALT  &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
+&kp TAB    &Q_P P Q  &W_O O W  &E_I I E      &R_U U R      &T_Y Y T        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LCTRL  &kp A     &kp S     &kp D         &kp F         &kp G           &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT  &kp Z     &kp X     &kp C         &kp V         &kp B           &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                               &kp LEFT_ALT  &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
             >;
         };
 
