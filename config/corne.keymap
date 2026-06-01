@@ -209,10 +209,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &Q_Apostrophe P Q       &W_Y O W         &F_U I F         &P_L U R      &B_J Y T        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL  &A_O SEMICOLON A        &R_I L S         &S_E K D         &T_N J F      &G_M H G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &Z_Right_Slash SLASH Z  &X_Dot PERIOD X  &C_Coma COMMA C  &D_H M V      &V_K N B        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                                                    &kp LEFT_ALT     &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
+&kp TAB    &Q_Apostrophe APOSTROPHE Q  &W_Y Y W         &F_U U F         &P_L L P      &B_J J B        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LCTRL  &A_O O A                    &R_I I R         &S_E E S         &T_N N T      &G_M M G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT  &Z_Right_Slash SLASH Z      &X_Dot PERIOD X  &C_Coma COMMA C  &D_H H V      &V_K N B        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                                                        &kp LEFT_ALT     &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
             >;
         };
 
