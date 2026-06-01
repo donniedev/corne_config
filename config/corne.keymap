@@ -61,135 +61,135 @@
             bindings = <&kp LEFT_GUI>, <&to 3>, <&to 4>;
         };
 
-        Q_P: Q_P {
+        Q_Apostrophe: Q_Apostrophe {
             compatible = "zmk,behavior-hold-tap";
-            label = "Q_P";
+            label = "Q_APOSTROPHE";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        W_O: W_O {
+        W_Y: W_Y {
             compatible = "zmk,behavior-hold-tap";
-            label = "W_O";
+            label = "W_Y";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        E_I: E_I {
+        F_U: F_U {
             compatible = "zmk,behavior-hold-tap";
-            label = "E_I";
+            label = "F_U";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        R_U: R_U {
+        P_L: P_L {
             compatible = "zmk,behavior-hold-tap";
-            label = "R_U";
+            label = "P_L";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        T_Y: T_Y {
+        B_J: B_J {
             compatible = "zmk,behavior-hold-tap";
-            label = "T_Y";
+            label = "B_J";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        A_: A_ {
+        A_O: A_O {
             compatible = "zmk,behavior-hold-tap";
-            label = "A_";
+            label = "A_O";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        S_L: S_L {
+        R_I: R_I {
             compatible = "zmk,behavior-hold-tap";
-            label = "S_L";
+            label = "R_I";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        D_K: D_K {
+        S_E: S_E {
             compatible = "zmk,behavior-hold-tap";
-            label = "D_K";
+            label = "S_E";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        F_J: F_J {
+        T_N: T_N {
             compatible = "zmk,behavior-hold-tap";
-            label = "F_J";
+            label = "T_N";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        G_H: G_H {
+        G_M: G_M {
             compatible = "zmk,behavior-hold-tap";
-            label = "G_H";
+            label = "G_M";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        Z_: Z_ {
+        Z_Right_Slash: Z_Right_Slash {
             compatible = "zmk,behavior-hold-tap";
-            label = "Z_";
+            label = "Z_RIGHT_SLASH";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        X_: X_ {
+        X_Dot: X_Dot {
             compatible = "zmk,behavior-hold-tap";
-            label = "X_";
+            label = "X_DOT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        C_: C_ {
+        C_Coma: C_Coma {
             compatible = "zmk,behavior-hold-tap";
-            label = "C_";
+            label = "C_COMA";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        V_M: V_M {
+        D_H: D_H {
             compatible = "zmk,behavior-hold-tap";
-            label = "V_M";
+            label = "D_H";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
 
-        B_N: B_N {
+        V_K: V_K {
             compatible = "zmk,behavior-hold-tap";
-            label = "B_N";
+            label = "V_K";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -209,10 +209,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &Q_P P Q         &W_O O W      &E_I I E      &R_U U R      &T_Y Y T        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL  &A_ SEMICOLON A  &S_L L S      &D_K K D      &F_J J F      &G_H H G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &Z_ SLASH Z      &X_ PERIOD X  &C_ COMMA C   &V_M M V      &B_N N B        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                                          &kp LEFT_ALT  &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
+&kp TAB    &Q_Apostrophe P Q       &W_Y O W         &F_U I F         &P_L U R      &B_J Y T        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LCTRL  &A_O SEMICOLON A        &R_I L S         &S_E K D         &T_N J F      &G_M H G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT  &Z_Right_Slash SLASH Z  &X_Dot PERIOD X  &C_Coma COMMA C  &D_H M V      &V_K N B        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                                                    &kp LEFT_ALT     &td_layer1_2  &td_layer3_4    &kp RET  &mo 2  &kp RALT
             >;
         };
 
